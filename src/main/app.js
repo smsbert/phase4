@@ -11,4 +11,10 @@ app.listen(3000, () => {
     console.log('Example app listening on http://localhost:3000')
 })
 
+// The code below will display 'Hello World!' to the browser when you go to http://localhost:3000
+app.get('/newpage', (req, res) => {
+    // the .status(200) isn't necessary since it is the default return status
+    res.status(200).send('You made it to the new page!')
+})
+
 module.exports = app;
