@@ -2,7 +2,7 @@
   "name": "phase4",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main/app.js",
   "scripts": {
     "start": "node src/main/app.js",
     "test": "node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\""
